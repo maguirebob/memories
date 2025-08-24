@@ -1,0 +1,22 @@
+---
+layout: detail_page
+---
+<script>
+  console.log("In detail_page.html");
+  // get the query string from the url
+  const urlParams = new URLSearchParams(window.location.search);
+  const menuValue = urlParams.get('menu');
+  console.log("Menu: ", menuValue);
+  // get a record from liquid _data
+  const allMenus = {{ site.data.menus | jsonify }};
+  const selectedMenu = allMenus.find(menu => menu.passName === menuValue);
+  console.log("Liquid Data:", selectedMenu);
+  document.addEventListener("DOMContentLoaded", function() {
+      var myImage = document.getElementById("detailed-menu");
+      myImage.setAttribute("src", selectedMenu.image);
+  });
+</script>
+
+<div class="detailed-menu">
+  <img src="assets/images/1997_Menu.jpeg" alt="1994 Menu" id="detailed-menu">
+</div>
