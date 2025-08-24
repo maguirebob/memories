@@ -1,7 +1,7 @@
 - name: 1994 Menu
   passName: 1994Menu
   description: 1st Saved Menu
-  image: /images/1994_menu.png
+  image: assets/images/1994_menu.png
   image_alt: Menu from 1997
 - name: 1997 Menu
   passName: 1997Menu
