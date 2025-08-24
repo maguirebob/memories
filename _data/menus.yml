@@ -1,125 +1,125 @@
 - name: 1994 Menu
   passName: 1994Menu
   description: 1st Saved Menu
-  image: assets/images/1994_menu.png
+  image: assets/images/1994_Menu.png
   image_alt: Menu from 1997
 - name: 1997 Menu
   passName: 1997Menu
   description: 2nd Saved Menu
-  image: images/1997_menu.jpeg
+  image: images/1997_Menu.jpeg
   image_alt: Menu from 1997
 - name: 1999 Menu
   passName: 1999Menu
   description: 3rd Saved Menu
-  image: images/1999_menu.jpeg
+  image: images/1999_Menu.jpeg
   image_alt: Menu from 1999
 - name: 2000 Menu
   passName: 2000Menu
   description: 4th Saved Menu
-  image: images/2000_menu.jpeg
+  image: images/2000_Menu.jpeg
   image_alt: Menu from 2000
 - name: 2004 Menu
   passName: 2004Menu
   description: 5th Saved Menu
-  image: images/2004_menu.jpeg
+  image: images/2004_Menu.jpeg
   image_alt: Menu from 2004
 - name: 2005 Menu
   passName: 2005Menu
   description: 6th Saved Menu
-  image: images/2005_menu.jpeg
+  image: images/2005_Menu.jpeg
   image_alt: Menu from 2005
 - name: 2006 Menu
   passName: 2006Menu
   description: 7th Saved Menu
-  image: images/2006_menu.jpeg
+  image: images/2006_Menu.jpeg
   image_alt: Menu from 2006
 - name: 2007 Menu
   passName: 2007Menu
   description: 8th Saved Menu
-  image: images/2007_menu.jpeg
+  image: images/2007_Menu.jpeg
   image_alt: Menu from 2007
 - name: 2008 Menu
   passName: 2008Menu
   description: 9th Saved Menu
-  image: images/2008_menu.jpeg
+  image: images/2008_Menu.jpeg
   image_alt: Menu from 2008
 - name: 2009 Menu
   passName: 2009Menu
   description: 10th Saved Menu
-  image: images/2009_menu.jpeg
+  image: images/2009_Menu.jpeg
   image_alt: Menu from 2009
 - name: 2010 Menu
   passName: 2010Menu
   description: 11th Saved Menu
-  image: images/2010_menu.jpeg
+  image: images/2010_Menu.jpeg
   image_alt: Menu from 2010
 - name: 2011 Menu
   passName: 2011Menu
   description: 12th Saved Menu
-  image: images/2011_menu.jpeg
+  image: images/2011_Menu.jpeg
   image_alt: Menu from 2011
 - name: 2012 Menu
   passName: 2012Menu
   description: 13th Saved Menu
-  image: images/2012_menu.jpeg
+  image: images/2012_Menu.jpeg
   image_alt: Menu from 2012
 - name: 2013 Menu
   passName: 2013Menu
   description: 14th Saved Menu
-  image: images/2013_menu.jpeg
+  image: images/2013_Menu.jpeg
   image_alt: Menu from 2013
 - name: 2014 Menu
   passName: 2014Menu
   description: 15th Saved Menu
-  image: images/2014_menu.jpeg
+  image: images/2014_Menu.jpeg
   image_alt: Menu from 2014
 - name: 2015 Menu
   passName: 2015Menu
   description: 16th Saved Menu
-  image: images/2015_menu.jpeg
+  image: images/2015_Menu.jpeg
   image_alt: Menu from 2015
 - name: 2016 Menu
   passName: 2016Menu
   description: 17th Saved Menu
-  image: images/2016_menu.jpeg
+  image: images/2016_Menu.jpeg
   image_alt: Menu from 2016
 - name: 2017 Menu
   passName: 2017Menu
   description: 18th Saved Menu
-  image: images/2017_menu.jpeg
+  image: images/2017_Menu.jpeg
   image_alt: Menu from 2017
 - name: 2018 Menu
   passName: 2018Menu
   description: 19th Saved Menu
-  image: images/2018_menu.jpeg
+  image: images/2018_Menu.jpeg
   image_alt: Menu from 2018
 - name: 2019 Menu
   passName: 2019Menu
   description: 20th Saved Menu
-  image: images/2019_menu.jpeg
+  image: images/2019_Menu.jpeg
   image_alt: Menu from 2019
 - name: 2020 Menu
   passName: 2020Menu
   description: 21st Saved Menu
-  image: images/2020_menu.jpeg
+  image: images/2020_Menu.jpeg
   image_alt: Menu from 2020
 - name: 2021 Menu
   passName: 2021Menu
   description: 22nd Saved Menu
-  image: images/2021_menu.jpeg
+  image: images/2021_Menu.jpeg
   image_alt: Menu from 2021
 - name: 2022 Menu
   passName: 2022Menu
   description: 23rd Saved Menu
-  image: images/2022_menu.jpeg
+  image: images/2022_Menu.jpeg
   image_alt: Menu from 2022
 - name: 2023 Menu
   passName: 2023Menu
   description: 24th Saved Menu
-  image: images/2023_menu.jpeg
+  image: images/2023_Menu.jpeg
   image_alt: Menu from 2023
 - name: 2024 Menu
   passName: 2024Menu
   description: 25th Saved Menu
-  image: images/2024_menu.jpeg
+  image: images/2024_Menu.jpeg
   image_alt: Menu from 2024

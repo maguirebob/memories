@@ -5,7 +5,12 @@
 layout: home
 ---
 <div class="grid_container">
-  <div class="menu-thumbnail">
-    <img src="assets/images/1994_Menu.png" class="menu-thumbnail">
-  </div>
+  {% for menu in site.data.menus %}
+    <div class="menu-thumbnail">
+      <h3>{{ menu.name }}</h3>
+      {% assign menuPath = "menu-details/index.html?menu=" | append: menu. passName %}
+      <a href={{ menuPath }}><img src="{{ menu.image }}" alt="{{ menu.image_alt }}" class="menu-image"></a>
+      console.log({{ menu.image }});
+    </div>
+  {% endfor %}
 </div>
