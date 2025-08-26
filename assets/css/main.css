@@ -36,6 +36,12 @@ h1, h2, h3 {
 .subtitle {
   text-align: center;
 }
+.content-container {
+  display: flex;
+  flex: 1 1 auto;
+  padding-top: 10vh;
+  width: 100%;
+}
 
 /* HERO STYLES */
 .hero {
@@ -159,4 +165,40 @@ h1, h2, h3 {
 }
 .footer h3 {
   padding-top: 1.5em;
+}
+
+/* MENU DETAIL STYLES */
+.detailed-menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+    flex-wrap: wrap; /* allows wrapping on smaller screens */
+  }
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Large image column */
+.column1 img {
+  width: 60vw; /* scales based on viewport width */
+  height: auto;
+  max-width: 100%;
+}
+
+/* Small stacked images */
+.column2 img {
+  width: 19vw; /* same width as large image for alignment */
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 5%;
+}
+
+/* Make each small image 1/4 the height of the large one */
+.column2 img {
+  flex: 1 1 0;
 }
