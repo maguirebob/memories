@@ -10,10 +10,16 @@ layout: default
   // get a record from liquid _data
   const allMenus = {{ site.data.menus | jsonify }};
   const selectedMenu = allMenus.find(menu => menu.passName === menuValue);
-  console.log("Liquid Data:", selectedMenu);
+  console.log("selectedMenu:", selectedMenu);
+  const photoPath = "photos.html?menu=" + selectedMenu.passName;
+  console.log("photopath: ", photoPath)
   document.addEventListener("DOMContentLoaded", function() {
-      var myImage = document.getElementById("detailed-menu");
-      myImage.setAttribute("src", selectedMenu.image);
+    // set the menu image to the one that has been passed
+    var myImage = document.getElementById("detailed-menu");
+    myImage.setAttribute("src", selectedMenu.image);
+    // set the url for the photo button to photos.html + the menu name
+    var photoButton = document.getElementById("photo-button");
+    photoButton.setAttribute("href", photoPath);
   });
 </script>
 
@@ -24,7 +30,7 @@ layout: default
   <div class="column column2">
     <div class="image-box">
       <h3>Photos</h3>
-      <img src="assets/images/picture-carousel-icon.avif" alt="Small Image 1">
+      <a href="photos.html" id="photo-button"><img src="assets/images/picture-carousel-icon.avif" alt="Small Image 1"></a>
     </div>
     <div class="image-box">
       <h3>Recipes</h3>
@@ -36,6 +42,3 @@ layout: default
     </div>
   </div>
 </div>
-
-
-<a href="{{ menuPath }}""><img src="{{ menu.image }}" alt="{{ menu.image_alt }}" class="menu-image"></a>
