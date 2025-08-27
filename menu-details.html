@@ -17,6 +17,25 @@ layout: default
   });
 </script>
 
-<div class="detailed-menu">
-  <img src="assets/images/1997_Menu.jpeg" alt="1994 Menu" id="detailed-menu">
+<div class="detailed-menu-container">
+  <div class="column column1">
+    <img src="assets/images/2011_Menu.jpeg" alt="Large Image" id="detailed-menu">
+  </div>
+  <div class="column column2">
+    <div class="image-box">
+      <h3>Photos</h3>
+      <img src="assets/images/picture-carousel-icon.avif" alt="Small Image 1">
+    </div>
+    <div class="image-box">
+      <h3>Recipes</h3>
+      <img src="assets/images/2009_Menu.jpeg" alt="Small Image 2">
+    </div>
+    <div class="image-box">
+      <h3>Blogs</h3>
+      <img src="assets/images/2010_Menu.jpeg" alt="Small Image 3">
+    </div>
+  </div>
 </div>
+
+
+<a href="{{ menuPath }}""><img src="{{ menu.image }}" alt="{{ menu.image_alt }}" class="menu-image"></a>

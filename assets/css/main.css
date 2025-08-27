@@ -202,3 +202,37 @@ h1, h2, h3 {
 .column2 img {
   flex: 1 1 0;
 }
+
+/* small image box */
+.image-box {
+  width: 300px;
+  border: 2px solid #333;
+  padding: 5px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+/*.image-box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+*/  
+.image-box h2 {
+  margin-bottom: 12px;
+}
+
+* ----------- Responsive Design ----------- */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .small-images {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .small-images img {
+    margin-bottom: 0;
+  }
